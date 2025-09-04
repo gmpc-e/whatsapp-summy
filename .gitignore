@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+wa-bridge/auth/
+
+# OS/IDE
+.DS_Store
+.idea/
+
+# Logs & storage
+server/logs/
+server/storage/*.jsonl
+
+# Secrets
+.env
+server/.env
+token.json
